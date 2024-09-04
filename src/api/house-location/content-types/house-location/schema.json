@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "house_locations",
+  "info": {
+    "singularName": "house-location",
+    "pluralName": "house-locations",
+    "displayName": "HouseLocation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "houseID": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "photo": {
+      "type": "string"
+    },
+    "wifi": {
+      "type": "boolean"
+    },
+    "laundry": {
+      "type": "boolean"
+    },
+    "availableunits": {
+      "type": "integer"
+    },
+    "Photo2": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "petitions",
+  "info": {
+    "singularName": "petition",
+    "pluralName": "petitions",
+    "displayName": "petition",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nomActivitat": {
+      "type": "string"
+    },
+    "nomAlumne": {
+      "type": "string"
+    },
+    "cognomsAlumne": {
+      "type": "string"
+    },
+    "emailAlumne": {
+      "type": "email"
+    }
+  }
+}
